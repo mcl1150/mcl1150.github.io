@@ -1,5 +1,5 @@
 body {
-    background-color: #f1f1f1;
+    background-color: #00b7ff;
 }
 
 .div {
@@ -11,11 +11,29 @@ body {
 img {
     height: auto;
     max-width: 100%;
+    border-style: groove;
+    border-color: rgb(255, 84, 175);
+    border-width: 3pt;
   }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    max-width: 30%;
+  }
+
+  @font-face { font-family: Distortion; src: url('La\ Distorsionada.otf'); } 
+  @font-face { font-family: Distortion; font-weight: bold; src: url('La\ Distorsionada.otf');}
+
+  h1 {
+    font-family: Distortion, sans-serif;
+    font-size: 90pt;
+    font-weight: lighter;
+    color: deeppink;
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
