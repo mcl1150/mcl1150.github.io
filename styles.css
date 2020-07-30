@@ -1,5 +1,6 @@
 body {
-    background-color: #00b7ff;
+    /* background-color: #00b7ff; */
+    background-image: url('thinker.bmp');
 }
 
 .div {
@@ -36,4 +37,8 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-style: groove;
+    border-color: rgb(255, 84, 175);
+    border-width: 3pt;
+    background-color: white;
   }
