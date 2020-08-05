@@ -1,0 +1,55 @@
+body {
+    font-family: 'Times', 'Times', sans-serif;
+    letter-spacing: 2px;
+    background-image: url('thinker.bmp');
+    /* background-color: #f0f0f0; */
+    color: #000;
+    font-size: 120%;
+    margin-left: 7%;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    max-width: 750px;
+    min-width: 400px;
+    line-height: 130%;
+}
+
+.card {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: groove;
+    border-color: rgb(255, 84, 175);
+    border-width: 3pt;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 120%;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.small {
+    font-size: 70%;
+    font-weight: lighter;
+    letter-spacing: 6px;
+}
+
+.subheading {
+    font-style: italic;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
